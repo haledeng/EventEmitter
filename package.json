@@ -1,0 +1,25 @@
+{
+  "name": "event_proxy",
+  "version": "1.0.0",
+  "description": "event proxy",
+  "main": "index.js",
+  "scripts": {
+    "build": "node build.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/haledeng/EventEmitter.git"
+  },
+  "author": "helondeng",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/haledeng/EventEmitter/issues"
+  },
+  "homepage": "https://github.com/haledeng/EventEmitter#readme",
+  "devDependencies": {
+    "babel-preset-es2015-rollup": "^1.1.1",
+    "rollup": "^0.34.3",
+    "rollup-plugin-babel": "^2.6.1",
+    "rollup-plugin-uglify": "^1.0.1"
+  }
+}
